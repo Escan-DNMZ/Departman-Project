@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html>
+<title>Asp</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css"/>
+
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item" style="margin-top: 20px;">Yönetim Paneli</h3>
+  <hr>
+  <a href="/Birim/Index" class="w3-bar-item w3-button">Departmanlar</a>
+  <a href="/Personel/Index" class="w3-bar-item w3-button">Personeller</a>
+  <a href="#" class="w3-bar-item w3-button">Hakkımızda</a>
+  <a href="/Login/CikisYap" class="w3-bar-item w3-button">Çıkış</a>
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="navbar navbar-light bg-primary">
+  <h1>Departman projesi</h1>
+</div>
+
+
+
+<div class="w3-container">
+@RenderBody()
+</div>
+
+</div>
+      
+</body>
+</html>
+

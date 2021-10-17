@@ -1,0 +1,12 @@
+@model CoreDepartman.Models.Birim
+@{
+    ViewData["Title"] = "YeniBirim";
+    Layout = "~/Views/Shared/_Bar.cshtml";
+}
+<br/>
+    <form class="form-group" method="post">
+    <b>Departman Adı</b>
+    @Html.TextBoxFor(x => x.BirimAd, new { @class = "form-control" })
+    <br/>
+    <button class="btn btn-info">Departman Ekle</button>
+</form>

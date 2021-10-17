@@ -1,0 +1,24 @@
+﻿@model CoreDepartman.Models.Personel
+@{
+    ViewData["Title"] = "PersonelGetir";
+    Layout = "~/Views/Shared/_Bar.cshtml";
+}
+@using(Html.BeginForm("PersonelGuncelle","getir",FormMethod.Post))
+{
+    <b>Id</b>
+    @Html.TextBoxFor(x => x.PerId, new { @class = "form-control" })
+    <br />
+    <b>Ad</b>
+    @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
+    <br />
+    <b>Soyad</b>
+    @Html.TextBoxFor(x => x.Soyad, new { @class = "form-control" })
+    <br />
+    <b>Sehir</b>
+    @Html.TextBoxFor(x => x.Sehir, new { @class = "form-control" })
+    <br />
+    <b>Birim</b>
+    @Html.DropDownListFor(x=>x.Birim.BirimID, (List<SelectListItem>)ViewBag.dgr, new { @class = "from-control" })
+    <br />
+    <button class="btn btn-success">Personel Güncelle</button>
+}

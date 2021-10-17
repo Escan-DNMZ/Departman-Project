@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{CF1F7818-3FDF-4558-AC66-491AC20C98BD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Login/GirisYap.cshtml">
+    <Files>
+      <File FileName="Controllers/LoginController.cs" Line="30" Column="45" />
+      <File FileName="Views/Login/GirisYap.cshtml" Line="18" Column="51" />
+      <File FileName="Program.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoreDepartman" expanded="True">
+            <Node name="CoreDepartman" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Login" expanded="True">
+                  <Node name="GirisYap.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="login-form-3" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CoreDepartman PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

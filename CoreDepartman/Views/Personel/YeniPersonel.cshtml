@@ -1,0 +1,20 @@
+@model CoreDepartman.Models.Personel
+@{
+    Layout = "~/Views/Shared/_Bar.cshtml";
+}
+<br/>
+    <form class="form-group" method="post">
+    <b>Personel Adı</b>
+    @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
+    <br/>
+    <b>Personel Soyadı</b>
+    @Html.TextBoxFor(x => x.Soyad, new { @class = "form-control" })
+    <br/>
+    <b>Personel Sehir</b>
+    @Html.TextBoxFor(x => x.Sehir, new { @class = "form-control" })
+    <br/>
+    <b>Personel Birimi</b>
+    @Html.DropDownListFor(x=>x.Birim.BirimID,(List<SelectListItem>)ViewBag.dgr,new {@class="from-control"})
+    <br>
+    <button class="btn btn-info">Personel Ekle</button>
+    </form>
